@@ -4,7 +4,3 @@ def xyz_there(str):
             if str[i-1] != '.':
                 return True
     return False
-
-xyz_there('abcxyz') 
-xyz_there('abc.xyz') 
-xyz_there('xyz.abc')
